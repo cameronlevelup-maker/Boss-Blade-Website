@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boss&Blade</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Boss&Blade Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Boss&Blade</h1>
+        <p>Your ultimate gaming content destination!</p>
+        <a href="#videos" class="btn">Watch Videos</a>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos">
+        <h2>Latest Videos</h2>
+        <div class="video-grid">
+            <!-- YouTube Embed Example -->
+            <iframe width="300" height="170" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+            title="YouTube video" frameborder="0" allowfullscreen></iframe>
+
+            <iframe width="300" height="170" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+            title="YouTube video" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Boss&Blade</h2>
+        <p>Boss&Blade is a gaming channel where we share epic gameplay, tutorials, and tips!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email: contact@bossandblade.com</p>
+        <p>Follow us on social media!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Boss&Blade. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
